@@ -1,0 +1,21 @@
+settings:
+  change-skin-with-nickname: true
+  update-tab-list: true
+  persist-player-settings: true
+  max-affix-length: 32
+chat:
+  enabled: true
+  format: '<gray>{prefix}<white>{name}</white>{suffix}<dark_gray>: </dark_gray>{message}'
+nametag:
+  enabled: true
+skins:
+  cache-duration-minutes: 60
+  request-timeout-seconds: 5
+disguise:
+  enabled: true
+  change-nametag: true
+  change-chat: true
+  change-tab: true
+  copy-target-textures: true
+  preserve-prefix-suffix: true
+  persist: true

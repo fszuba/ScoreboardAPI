@@ -1,0 +1,31 @@
+name: ScoreboardAPI
+version: 1.1.0
+main: it.farrlor.scoreboardapi.ScoreboardApiPlugin
+api-version: '26.3'
+depend: [packetevents]
+description: Client-side visual identities for Paper 26.3
+commands:
+  sba:
+    description: Manage visual identity
+    usage: /sba <nick|skin|chat|prefix|suffix|disguise|undisguise|reset|reload>
+permissions:
+  scoreboardapi.nick:
+    default: op
+  scoreboardapi.skin:
+    default: op
+  scoreboardapi.chat:
+    default: op
+  scoreboardapi.prefix:
+    default: op
+  scoreboardapi.suffix:
+    default: op
+  scoreboardapi.reset:
+    default: op
+  scoreboardapi.disguise:
+    default: op
+  scoreboardapi.undisguise:
+    default: op
+  scoreboardapi.others:
+    default: op
+  scoreboardapi.reload:
+    default: op
